@@ -5,8 +5,7 @@ requirments = [
 
 from socket import socket , gaierror
 from sys import stdout , argv
-from exceptions import *
-from signal import signal ,  SIGINT
+from CSP.exceptions import *
 from os import kill , getpid , system
 from platform import system as syst
 
